@@ -2,37 +2,126 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #404040;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-title{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  font-size: larger;
 }
 
-.App-link {
-  color: #61dafb;
+.list-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-items ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.list-items li {
+  margin-bottom: 1rem;
+}
+
+.list-items a{
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  color: #7a81ff;
+  border-radius: 5px;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.links a{
+  text-decoration: none;
+  color: #7a81ff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.random-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 50%;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #7a81ff;
+}
+  
+
+
+.list-items a{
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  color: #7a81ff;
+  border-radius: 5px;
+}
+
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.links a{
+  text-decoration: none;
+  color: #7a81ff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+
+
+.random-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 50%;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #7a81ff;
 }
